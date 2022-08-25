@@ -1,1 +1,1 @@
-summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:oak_slab"},Time:-2000,Motion:[0.0d,0.0d,0.0d],NoGravity:1b,Tags:["grille_block"]}
+summon minecraft:armor_stand ~ ~ ~ {ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1,tag:{CustomModelData:6}}],NoGravity:1b,Tags:["grille_block"],Invisible:1b,NoBasePlate:1b,Marker:1b,Small:1b,DisabledSlots:["HEAD","LEGS","CHEST","FEET"]}

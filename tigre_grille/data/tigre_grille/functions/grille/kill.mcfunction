@@ -1,1 +1,1 @@
-kill @e[type=falling_block,tag=grille_block]
+kill @e[type=armor_stand,tag=grille_block]
