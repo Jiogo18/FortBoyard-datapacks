@@ -1,0 +1,1 @@
+kill @e[type=falling_block,tag=grille_block]

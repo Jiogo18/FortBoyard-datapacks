@@ -1,0 +1,1 @@
+summon minecraft:falling_block ~ ~ ~ {BlockState:{Name:"minecraft:spruce_fence",Properties:{east:"true",west:"true"}},Time:-2000,Motion:[0.0d,0.0d,0.0d],NoGravity:1b,Tags:["grille_block"]}
