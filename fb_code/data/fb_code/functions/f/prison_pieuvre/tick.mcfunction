@@ -5,7 +5,7 @@ scoreboard players add prison_pieuvre_anim_tick fb_code 1
 
 # wool
 execute if score prison_pieuvre_anim_tick fb_code matches 2 run function fb_code:f/prison_pieuvre/place_wool
-execute if score prison_pieuvre_anim_tick fb_code matches 2 run playsound minecraft:block.honey_block.fall master @a -11 58 86 3 0.5
+execute if score prison_pieuvre_anim_tick fb_code matches 2 positioned -11 58 86 run playsound minecraft:block.honey_block.fall master @a[distance=..10] ~ ~ ~ 3 0.5
 # glowstone
 execute if score prison_pieuvre_anim_tick fb_code matches 10 run function fb_code:f/prison_pieuvre/place_glowstone
 # wool
