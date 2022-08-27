@@ -9,7 +9,7 @@
 # input_code
 # input_state
 # time (not set here but must be used)
-# length (from guess_code_length)
+# length (from guess_common_length)
 
 scoreboard players set input_state fb_code -1
 
@@ -32,7 +32,7 @@ scoreboard players set input_state fb_code 0
 execute if score input_code fb_code = code fb_code run scoreboard players set input_state fb_code 1
 
 # Switch
-function fb_code:util/guess_code_length
+function fb_code:util/guess_common_length/start
 
 scoreboard players reset button fb_code
 scoreboard players reset code fb_code

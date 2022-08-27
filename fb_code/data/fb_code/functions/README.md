@@ -14,7 +14,7 @@ If the previous input was a long time ago, then the input_code is reset.
  - Waiting too long and then press C => "C"
 Of course these letters are for the example, in the scoreboard we use digits
 
-# guess_code_length
+# guess_common_length
 If the code should be "ABCD"
 
 And the input_code is "AAAB"
