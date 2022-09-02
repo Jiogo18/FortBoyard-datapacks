@@ -13,10 +13,10 @@
 
 scoreboard players set input_state fb_code -1
 
-# Is too late => reset the code
+# Is too late => reset the code (30 seconds)
 scoreboard players operation input_delay fb_code = time fb_code
 scoreboard players operation input_delay fb_code -= input_time fb_code
-execute if score input_delay fb_code matches 100.. run scoreboard players set input_code fb_code 0
+execute if score input_delay fb_code matches 600.. run scoreboard players set input_code fb_code 0
 scoreboard players reset input_delay fb_code
 
 # Push button at the end of the code
