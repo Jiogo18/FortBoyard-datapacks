@@ -1,5 +1,4 @@
-# Remove falling blocks and place the new blocks
-function tigre_grille:grille/kill
-fill -2 85 15 0 85 15 minecraft:oak_slab
-fill -2 80 15 0 84 15 minecraft:spruce_fence
-fill -2 74 15 0 79 15 air
+# Remove the barrier blocks and tp the armor stand to the correct position
+fill -2 74 15 0 80 15 air
+tag @e[type=armor_stand,tag=grille_block] remove grille_block_up
+execute positioned ~ 80 ~ run function tigre_grille:grille/summon_grille_at_if_not

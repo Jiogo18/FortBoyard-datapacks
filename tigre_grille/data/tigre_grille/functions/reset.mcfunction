@@ -9,6 +9,7 @@ scoreboard players set animation tigre_grille 0
 scoreboard players set tigre_angle tigre_grille 0
 execute unless score etat tigre_grille matches 1 run scoreboard players set etat tigre_grille 0
 
+function tigre_grille:grille/kill
 execute if score etat tigre_grille matches 1 run function tigre_grille:grille/place_ouvert
 execute if score etat tigre_grille matches 0 run function tigre_grille:grille/place_ferme
 

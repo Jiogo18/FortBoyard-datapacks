@@ -1,0 +1,1 @@
+summon minecraft:armor_stand ~ ~ ~ {ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1,tag:{CustomModelData:6}}],NoGravity:1b,Tags:["grille_block"],Invisible:1b,NoBasePlate:1b,DisabledSlots:["HEAD","LEGS","CHEST","FEET"]}

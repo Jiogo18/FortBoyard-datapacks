@@ -1,5 +1,5 @@
 fill -2 74 15 0 85 15 air
 
-execute positioned -2 74 15 run function tigre_grille:grille/summon_falling_blocks_at_y
+execute positioned ~ 74 ~ run function tigre_grille:grille/summon_grille_at_if_not
 
-execute as @e[type=armor_stand,tag=grille_block] run tag @s add grille_block_up
+tag @e[type=armor_stand,tag=grille_block] add grille_block_up
