@@ -10,6 +10,4 @@ function fb_compacteur:f/random/generate_momentum
 execute if score egout fb_compacteur matches 500..749 positioned 35 78 74 run function fb_compacteur:f/drops/spawn_item
 execute if score egout fb_compacteur matches 750..999 positioned 42 78 74 run function fb_compacteur:f/drops/spawn_item
 
-scoreboard players reset momentum_x fb_compacteur
-scoreboard players reset momentum_z fb_compacteur
 scoreboard players reset egout fb_compacteur

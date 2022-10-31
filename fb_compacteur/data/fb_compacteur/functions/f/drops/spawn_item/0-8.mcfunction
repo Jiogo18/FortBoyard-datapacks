@@ -1,0 +1,10 @@
+# Spawn item : slots 0-8
+execute if score random fb_compacteur_r matches 000..036 run data modify entity @e[type=item,tag=compacteur_new_item,limit=1] Item set from block 30 73 64 Items[0]
+execute if score random fb_compacteur_r matches 037..073 run data modify entity @e[type=item,tag=compacteur_new_item,limit=1] Item set from block 30 73 64 Items[1]
+execute if score random fb_compacteur_r matches 074..110 run data modify entity @e[type=item,tag=compacteur_new_item,limit=1] Item set from block 30 73 64 Items[2]
+execute if score random fb_compacteur_r matches 111..147 run data modify entity @e[type=item,tag=compacteur_new_item,limit=1] Item set from block 30 73 64 Items[3]
+execute if score random fb_compacteur_r matches 148..184 run data modify entity @e[type=item,tag=compacteur_new_item,limit=1] Item set from block 30 73 64 Items[4]
+execute if score random fb_compacteur_r matches 185..221 run data modify entity @e[type=item,tag=compacteur_new_item,limit=1] Item set from block 30 73 64 Items[5]
+execute if score random fb_compacteur_r matches 222..258 run data modify entity @e[type=item,tag=compacteur_new_item,limit=1] Item set from block 30 73 64 Items[6]
+execute if score random fb_compacteur_r matches 259..295 run data modify entity @e[type=item,tag=compacteur_new_item,limit=1] Item set from block 30 73 64 Items[7]
+execute if score random fb_compacteur_r matches 296..332 run data modify entity @e[type=item,tag=compacteur_new_item,limit=1] Item set from block 30 73 64 Items[8]

@@ -2,7 +2,7 @@
 scoreboard players remove tick fb_compacteur 1
 
 # Wait 200 ticks before moving
-execute if score tick fb_compacteur matches 0..5800 run function fb_compacteur:f/walls/move_walls
+execute if score tick fb_compacteur matches 0..5930 run function fb_compacteur:f/walls/move_walls
 
 # Drop items
 execute if score tick fb_compacteur matches 0..5800 run function fb_compacteur:f/drops/drop

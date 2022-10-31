@@ -13,3 +13,4 @@ tag @e[tag=compacteur_wall_new_blockstate] remove compacteur_wall_new_blockstate
 tag @e[tag=compacteur_wall_new_shulker] remove compacteur_wall_new_shulker
 
 # Inconvéniant du slime : le joueur ne doit pas avoir speed V (effect niveau 4) sinon il traverse
+effect give @e[type=slime,tag=compacteur_wall_new] invisibility 999999 1 true
