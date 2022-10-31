@@ -9,6 +9,6 @@ execute as @e[type=item,scores={fb_item_count=1..}] run scoreboard players opera
 kill @e[type=item,scores={fb_item_count=1..}]
 
 # If points = 100 % => win
-execute if score le_berger fb_item_c matches 99.. run function fb_item_collector:le_berger/win
+execute if score le_berger fb_item_c matches 98.. run function fb_item_collector:le_berger/win
 
 function fb_item_collector:le_berger/update_counter
