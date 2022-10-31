@@ -34,13 +34,11 @@ execute if score mangeur_etat fb_compacteur matches 9 as @e[type=creeper,tag=com
 execute if score mangeur_etat fb_compacteur matches 10 as @e[type=creeper,tag=compacteur_mangeur] at @s run function fb_compacteur:f/mangeur/mange
 
 # 11) Fin (début de l'animation)
-execute if score mangeur_etat fb_compacteur matches 11 as @e[type=creeper,tag=compacteur_mangeur] at @s run function fb_compacteur:f/mangeur/fin
+execute if score mangeur_etat fb_compacteur matches 11 run function fb_compacteur:f/mangeur/fin/fin_init
 
-# 12) Fin
-execute if score mangeur_etat fb_compacteur matches 12 unless score mangeur_gateau fb_compacteur matches ..0 run scoreboard players remove mangeur_gateau fb_compacteur 1
-execute if score mangeur_etat fb_compacteur matches 12 if score mangeur_gateau fb_compacteur matches 1 run function fb_cle:actions/le_compacteur/monte_c2
+# 12) Fin tick
+execute if score mangeur_etat fb_compacteur matches 12 run function fb_compacteur:f/mangeur/fin/fin_tick
 
 # Remplacer le gâteau avec un gâteau plaçable
-execute positioned 51 73.0 73 as @a[distance=..5,gamemode=!spectator] run function fb_compacteur:f/mangeur/remplace_gateau
 execute positioned 49 73 80 if block ~ ~ ~ minecraft:blast_furnace{Items:[{Slot:0b,id:"minecraft:cake",Count:1b}]} unless block ~ ~ ~ minecraft:blast_furnace{Items:[{Slot:2b}]} run function fb_compacteur:f/mangeur/remplace_gateau
 execute positioned 50 73 80 if block ~ ~ ~ minecraft:blast_furnace{Items:[{Slot:0b,id:"minecraft:cake",Count:1b}]} unless block ~ ~ ~ minecraft:blast_furnace{Items:[{Slot:2b}]} run function fb_compacteur:f/mangeur/remplace_gateau
