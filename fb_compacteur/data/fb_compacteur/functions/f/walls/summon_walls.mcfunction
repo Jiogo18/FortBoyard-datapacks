@@ -47,7 +47,6 @@ execute positioned 42 73 64 run function fb_compacteur:f/walls/summon_at
 execute positioned 43 73 64 run function fb_compacteur:f/walls/summon_at
 execute positioned 44 73 64 run function fb_compacteur:f/walls/summon_at
 execute positioned 45 73 64 run function fb_compacteur:f/walls/summon_at
-scoreboard players reset summon_shulker fb_compacteur
 execute positioned 32 74 64 run function fb_compacteur:f/walls/summon_at
 execute positioned 33 74 64 run function fb_compacteur:f/walls/summon_at
 execute positioned 34 74 64 run function fb_compacteur:f/walls/summon_at
@@ -62,6 +61,7 @@ execute positioned 42 74 64 run function fb_compacteur:f/walls/summon_at
 execute positioned 43 74 64 run function fb_compacteur:f/walls/summon_at
 execute positioned 44 74 64 run function fb_compacteur:f/walls/summon_at
 execute positioned 45 74 64 run function fb_compacteur:f/walls/summon_at
+scoreboard players reset summon_shulker fb_compacteur
 execute positioned 32 75 64 run function fb_compacteur:f/walls/summon_at
 execute positioned 33 75 64 run function fb_compacteur:f/walls/summon_at
 execute positioned 34 75 64 run function fb_compacteur:f/walls/summon_at
@@ -127,7 +127,6 @@ execute positioned 42 73 84 run function fb_compacteur:f/walls/summon_at
 execute positioned 43 73 84 run function fb_compacteur:f/walls/summon_at
 execute positioned 44 73 84 run function fb_compacteur:f/walls/summon_at
 execute positioned 45 73 84 run function fb_compacteur:f/walls/summon_at
-scoreboard players reset summon_shulker fb_compacteur
 execute positioned 32 74 84 run function fb_compacteur:f/walls/summon_at
 execute positioned 33 74 84 run function fb_compacteur:f/walls/summon_at
 execute positioned 34 74 84 run function fb_compacteur:f/walls/summon_at
@@ -142,6 +141,7 @@ execute positioned 42 74 84 run function fb_compacteur:f/walls/summon_at
 execute positioned 43 74 84 run function fb_compacteur:f/walls/summon_at
 execute positioned 44 74 84 run function fb_compacteur:f/walls/summon_at
 execute positioned 45 74 84 run function fb_compacteur:f/walls/summon_at
+scoreboard players reset summon_shulker fb_compacteur
 execute positioned 32 75 84 run function fb_compacteur:f/walls/summon_at
 execute positioned 33 75 84 run function fb_compacteur:f/walls/summon_at
 execute positioned 34 75 84 run function fb_compacteur:f/walls/summon_at
