@@ -1,7 +1,7 @@
 
 # 0) Attend le joueur pour lancer
-execute if score mangeur_etat fb_compacteur matches 0 as @e[type=creeper,tag=compacteur_mangeur] at @s if entity @p[distance=..3] run function fb_compacteur:f/mangeur/bonjour
-execute if score mangeur_etat fb_compacteur matches 1 as @e[type=creeper,tag=compacteur_mangeur] at @s unless entity @p[distance=..5] run scoreboard players set mangeur_etat fb_compacteur 0
+execute if score mangeur_etat fb_compacteur matches 0 as @e[type=creeper,tag=compacteur_mangeur] at @s if entity @p[distance=..3,gamemode=!spectator] run function fb_compacteur:f/mangeur/bonjour
+execute if score mangeur_etat fb_compacteur matches 1 as @e[type=creeper,tag=compacteur_mangeur] at @s unless entity @p[distance=..5,gamemode=!spectator] run scoreboard players set mangeur_etat fb_compacteur 0
 
 # 1) Attend le joueur
 execute if score mangeur_etat fb_compacteur matches 1 as @e[type=creeper,tag=compacteur_mangeur] at @s run function fb_compacteur:f/mangeur/attendre_gateau
