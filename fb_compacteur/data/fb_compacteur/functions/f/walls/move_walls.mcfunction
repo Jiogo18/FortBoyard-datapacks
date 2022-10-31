@@ -1,7 +1,4 @@
 
-# execute as @e[type=armor_stand,tag=compacteur_wall,tag=wall_1,tag=test_block] at @s run tp ~.001 ~ ~
-# execute as @e[type=armor_stand,tag=compacteur_wall,tag=wall_2,tag=test_block] at @s run tp ~-.001 ~ ~
-
 scoreboard players add wall_1_z fb_compacteur 1600
 scoreboard players remove wall_2_z fb_compacteur 1600
 scoreboard players operation distance_temp fb_compacteur = wall_1_z fb_compacteur
@@ -39,5 +36,5 @@ scoreboard players operation wall_1_ceil fb_compacteur = wall_1_z fb_compacteur
 scoreboard players operation wall_1_ceil fb_compacteur %= 1000000 fb_compacteur
 execute if score wall_1_ceil fb_compacteur matches 500000 run function fb_compacteur:f/walls/summon_ceils
 scoreboard players reset wall_1_ceil fb_compacteur
-execute as @e[type=armor_stand,tag=compacteur_wall,tag=wall_1,tag=compacteur_texture_ceil] at @s run tp ~ ~ ~0.0016
-execute as @e[type=armor_stand,tag=compacteur_wall,tag=wall_2,tag=compacteur_texture_ceil] at @s run tp ~ ~ ~-0.0016
+execute as @e[type=armor_stand,tag=compacteur_wall,tag=wall_1,tag=compacteur_texture_ceil] at @s run tp @s ~ ~ ~0.0016
+execute as @e[type=armor_stand,tag=compacteur_wall,tag=wall_2,tag=compacteur_texture_ceil] at @s run tp @s ~ ~ ~-0.0016
