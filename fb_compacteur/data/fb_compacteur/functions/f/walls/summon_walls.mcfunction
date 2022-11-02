@@ -163,6 +163,10 @@ tag @e[tag=compacteur_wall_new] remove compacteur_wall_new
 execute as @e[type=slime,tag=compacteur_wall,tag=wall_1] at @s at @e[type=armor_stand,tag=compacteur_idbox,tag=wall_1,sort=nearest,limit=1] run tp @s ~ ~ ~-0.3
 execute as @e[type=slime,tag=compacteur_wall,tag=wall_2] at @s at @e[type=armor_stand,tag=compacteur_idbox,tag=wall_2,sort=nearest,limit=1] run tp @s ~ ~ ~0.3
 
+# Timer to move the shulkers (idbox) and to spawn the roof
+scoreboard players set idbox_timer fb_compacteur 0
+scoreboard players set ceil_timer fb_compacteur 0
+
 # 32 71 84 => 45 75 84
 # 32 71 64 => 45 75 64
 # Milieu : 74

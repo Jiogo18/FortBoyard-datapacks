@@ -38,3 +38,5 @@ tag @e[tag=compacteur_wall_new] add wall_2
 tag @e[tag=compacteur_wall_new] remove compacteur_texture
 tag @e[tag=compacteur_wall_new] add compacteur_texture_ceil
 tag @e[tag=compacteur_wall_new] remove compacteur_wall_new
+
+scoreboard players set ceil_timer fb_compacteur 0

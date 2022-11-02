@@ -1,0 +1,13 @@
+[
+	{
+		"condition": "minecraft:reference",
+		"name": "fb_compacteur:survie"
+	},
+	{
+		"condition": "minecraft:inverted",
+		"term": {
+			"condition": "minecraft:reference",
+			"name": "fb_compacteur:spectateur"
+		}
+	}
+]

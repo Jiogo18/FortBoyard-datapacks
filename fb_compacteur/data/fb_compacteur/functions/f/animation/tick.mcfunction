@@ -2,7 +2,7 @@
 scoreboard players remove tick fb_compacteur 1
 
 # Wait 200 ticks before moving
-execute if score tick fb_compacteur matches 0..5930 run function fb_compacteur:f/walls/move_walls
+execute if score tick fb_compacteur matches 0..5936 run function fb_compacteur:f/walls/move_walls
 
 # Drop items
 execute if score tick fb_compacteur matches 0..5800 run function fb_compacteur:f/drops/drop
@@ -13,3 +13,8 @@ execute if score tick fb_compacteur matches 0600 at @p run playsound minecraft:a
 
 # Mangeur
 function fb_compacteur:f/mangeur/tick
+
+# Dégats
+execute if score tick fb_compacteur matches 0..260 as @e[type=armor_stand,tag=compacteur_wall,tag=compacteur_texture] at @s as @a[distance=..1] if predicate fb_compacteur:participant run effect give @s minecraft:wither 1 9 true
+execute if score tick fb_compacteur matches 0..40 run function fb_compacteur:f/animation/kill_at_end
+execute if score tick fb_compacteur matches 32 as @e[type=creeper,tag=compacteur_mangeur] run data merge entity @s {ExplosionRadius:0b,ignited:1b}

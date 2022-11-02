@@ -1,0 +1,21 @@
+{
+	"condition": "minecraft:alternative",
+	"terms": [
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:player",
+				"nbt": "{playerGameType:0}"
+			}
+		},
+		{
+			"condition": "minecraft:entity_properties",
+			"entity": "this",
+			"predicate": {
+				"type": "minecraft:player",
+				"nbt": "{playerGameType:2}"
+			}
+		}
+	]
+}
