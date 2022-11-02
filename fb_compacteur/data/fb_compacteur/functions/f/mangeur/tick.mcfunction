@@ -40,5 +40,7 @@ execute if score mangeur_etat fb_compacteur matches 11 run function fb_compacteu
 execute if score mangeur_etat fb_compacteur matches 12 run function fb_compacteur:f/mangeur/fin/fin_tick
 
 # Remplacer le gâteau avec un gâteau plaçable
-execute positioned 49 73 80 if block ~ ~ ~ minecraft:blast_furnace{Items:[{Slot:0b,id:"minecraft:cake",Count:1b}]} unless block ~ ~ ~ minecraft:blast_furnace{Items:[{Slot:2b}]} run function fb_compacteur:f/mangeur/remplace_gateau
-execute positioned 50 73 80 if block ~ ~ ~ minecraft:blast_furnace{Items:[{Slot:0b,id:"minecraft:cake",Count:1b}]} unless block ~ ~ ~ minecraft:blast_furnace{Items:[{Slot:2b}]} run function fb_compacteur:f/mangeur/remplace_gateau
+execute positioned 49 73 80 if block ~ ~ ~ minecraft:blast_furnace{Items:[{Slot:0b,id:"minecraft:cake",Count:1b}]} unless block ~ ~ ~ minecraft:blast_furnace{Items:[{Slot:2b}]} run function fb_compacteur:f/mangeur/four/tick_1
+execute positioned 50 73 80 if block ~ ~ ~ minecraft:blast_furnace{Items:[{Slot:0b,id:"minecraft:cake",Count:1b}]} unless block ~ ~ ~ minecraft:blast_furnace{Items:[{Slot:2b}]} run function fb_compacteur:f/mangeur/four/tick_2
+execute positioned 49 73 80 unless block ~ ~ ~ minecraft:blast_furnace{Items:[{Slot:0b,id:"minecraft:cake",Count:1b}]} run scoreboard players set four_1 fb_compacteur 0
+execute positioned 50 73 80 unless block ~ ~ ~ minecraft:blast_furnace{Items:[{Slot:0b,id:"minecraft:cake",Count:1b}]} run scoreboard players set four_2 fb_compacteur 0
