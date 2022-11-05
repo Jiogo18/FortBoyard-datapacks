@@ -13,5 +13,5 @@ kill @e[type=item,tag=compacteur_item]
 # Reset mangeur
 function fb_compacteur:f/mangeur/reset
 setblock 49 74 69 orange_stained_glass
-setblock 49 73 80 minecraft:blast_furnace[facing=north,lit=true]
-setblock 50 73 80 minecraft:blast_furnace[facing=north,lit=true]
+# Reset les fours
+function fb_compacteur:f/mangeur/four/reset
