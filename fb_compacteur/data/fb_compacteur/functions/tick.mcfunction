@@ -7,3 +7,6 @@ effect give @e[type=shulker,tag=compacteur_wall_shulker] invisibility 999999 1 t
 execute positioned 38 71 74 run kill @e[type=item,nbt={Item:{id:"minecraft:shulker_shell"}},distance=..10]
 execute positioned 38 71 74 run kill @e[type=item,nbt={Item:{id:"minecraft:slime_ball"}},distance=..10]
 execute positioned 51 74 74 run kill @e[type=item,nbt={Item:{id:"minecraft:gunpowder"}},distance=..3]
+
+data modify block 49 73 80 BurnTime set value 1000s
+data modify block 50 73 80 BurnTime set value 1000s
