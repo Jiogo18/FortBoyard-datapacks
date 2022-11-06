@@ -8,8 +8,8 @@ execute if score tick fb_compacteur matches 0..5936 run function fb_compacteur:f
 execute if score tick fb_compacteur matches 0..5800 run function fb_compacteur:f/drops/drop
 
 # Sons
-execute if score tick fb_compacteur matches 5800 at @p run playsound minecraft:alarme ambient @p 39.0 78 74 0.1 0.5
-execute if score tick fb_compacteur matches 0600 at @p run playsound minecraft:alarme ambient @p 39.0 78 74 0.1 0.5
+execute if score tick fb_compacteur matches 5800 positioned 39.0 78 74 run playsound minecraft:alarme ambient @a[distance=..40] ~ ~ ~ 0.2 0.5 0.01
+execute if score tick fb_compacteur matches 0600 positioned 39.0 78 74 run playsound minecraft:alarme ambient @a[distance=..40] ~ ~ ~ 0.2 0.5 0.01
 
 # Mangeur
 function fb_compacteur:f/mangeur/tick
