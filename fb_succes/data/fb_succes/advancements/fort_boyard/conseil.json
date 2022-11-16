@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_egg"
+		},
+		"title": {
+			"translate": "La rencontre"
+		},
+		"description": {
+			"color": "#aa7e0f",
+			"translate": "À la rencontre des maîtres-du-temps"
+		},
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"parent": "fb_succes:fort_boyard/vigie",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

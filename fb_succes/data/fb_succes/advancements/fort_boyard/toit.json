@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_egg"
+		},
+		"title": {
+			"translate": "Une vue plongeante sur la mer"
+		},
+		"description": {
+			"color": "#aa7e0f",
+			"translate": ""
+		},
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"parent": "fb_succes:fort_boyard/ile",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}

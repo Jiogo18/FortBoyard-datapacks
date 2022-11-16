@@ -1,0 +1,38 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_egg"
+		},
+		"title": {
+			"translate": "Fort Boyard"
+		},
+		"description": {
+			"color": "dark_purple",
+			"translate": "Succès de Fort Boyard"
+		},
+		"background": "minecraft:textures/block/stone_bricks.png",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"frame": "task"
+	},
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"fb_succes:fort_boyard/root": true
+						}
+					}
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"root"
+		]
+	]
+}

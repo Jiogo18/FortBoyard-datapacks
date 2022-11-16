@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:dragon_egg"
+		},
+		"title": {
+			"translate": "Bienvenue sur le Fort"
+		},
+		"description": {
+			"color": "#aa7e0f",
+			"translate": ""
+		},
+		"announce_to_chat": true,
+		"frame": "task"
+	},
+	"parent": "fb_succes:fort_boyard/toit",
+	"criteria": {
+		"impossible": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
