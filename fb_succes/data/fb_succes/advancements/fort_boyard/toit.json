@@ -13,7 +13,7 @@
 		"announce_to_chat": true,
 		"frame": "task"
 	},
-	"parent": "fb_succes:fort_boyard/ile",
+	"parent": "fb_succes:fort_boyard/hall",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
