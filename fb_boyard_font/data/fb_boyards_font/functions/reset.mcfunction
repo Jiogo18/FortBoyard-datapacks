@@ -1,4 +1,4 @@
-tellraw @a[tag=staff] "§e[FB Boyards] §fRéinitialisation"
+tellraw @a[tag=debug_boyards_font] "§e[FB Boyards] §fRéinitialisation"
 
 scoreboard players set etat fb_boyards 1
 

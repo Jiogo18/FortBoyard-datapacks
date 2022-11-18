@@ -1,4 +1,4 @@
-tellraw @a[tag=staff] "§e[FB Boyards] §fInitialisation"
+tellraw @a[tag=debug_boyards_font] "§e[FB Boyards] §fInitialisation"
 
 scoreboard objectives add fb_boyards dummy
 scoreboard objectives add fb_boyards_r dummy
