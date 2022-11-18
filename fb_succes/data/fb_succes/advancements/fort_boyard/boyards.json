@@ -4,16 +4,16 @@
 			"item": "minecraft:dragon_egg"
 		},
 		"title": {
-			"translate": "Objectif Fort-Boyard"
+			"translate": " Au trésor "
 		},
 		"description": {
 			"color": "#aa7e0f",
-			"translate": ""
+			"translate": "Objectif Fort-Boyard réussi !"
 		},
 		"announce_to_chat": true,
 		"frame": "task"
 	},
-	"parent": "fb_succes:fort_boyard/conseil",
+	"parent": "fb_succes:fort_boyard/prison",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"

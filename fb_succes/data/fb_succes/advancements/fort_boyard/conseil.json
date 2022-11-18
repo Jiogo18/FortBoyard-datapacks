@@ -4,11 +4,11 @@
 			"item": "minecraft:dragon_egg"
 		},
 		"title": {
-			"translate": "Jugement"
+			"translate": " Jugement "
 		},
 		"description": {
 			"color": "#aa7e0f",
-			"translate": "À la rencontre des maîtres-du-temps"
+			"translate": "À la rencontre des maîtres du temps !"
 		},
 		"announce_to_chat": true,
 		"frame": "task"

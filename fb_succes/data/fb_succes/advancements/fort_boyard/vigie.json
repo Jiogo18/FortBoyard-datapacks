@@ -4,11 +4,11 @@
 			"item": "minecraft:dragon_egg"
 		},
 		"title": {
-			"translate": "Dans la vigie du vieux sage"
+			"translate": " Dans la vigie "
 		},
 		"description": {
 			"color": "#aa7e0f",
-			"translate": ""
+			"translate": "Dans la vigie du vieux sage !"
 		},
 		"announce_to_chat": true,
 		"frame": "task"

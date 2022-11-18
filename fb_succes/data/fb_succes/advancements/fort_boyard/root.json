@@ -16,14 +16,92 @@
 		"frame": "task"
 	},
 	"criteria": {
-		"root": {
+		"ile": {
 			"trigger": "minecraft:location",
 			"conditions": {
 				"player": {
 					"type_specific": {
 						"type": "player",
 						"advancements": {
-							"fb_succes:fort_boyard/root": true
+							"fb_succes:fort_boyard/ile": true
+						}
+					}
+				}
+			}
+		},
+		"hall": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"fb_succes:fort_boyard/hall": true
+						}
+					}
+				}
+			}
+		},
+		"toit": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"fb_succes:fort_boyard/toit": true
+						}
+					}
+				}
+			}
+		},
+		"vigie": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"fb_succes:fort_boyard/vigie": true
+						}
+					}
+				}
+			}
+		},
+		"conseil": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"fb_succes:fort_boyard/conseil": true
+						}
+					}
+				}
+			}
+		},
+		"prison": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"fb_succes:fort_boyard/prison": true
+						}
+					}
+				}
+			}
+		},
+		"boyards": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"player": {
+					"type_specific": {
+						"type": "player",
+						"advancements": {
+							"fb_succes:fort_boyard/boyards": true
 						}
 					}
 				}
@@ -32,7 +110,25 @@
 	},
 	"requirements": [
 		[
-			"root"
+			"ile"
+		],
+		[
+			"hall"
+		],
+		[
+			"toit"
+		],
+		[
+			"vigie"
+		],
+		[
+			"conseil"
+		],
+		[
+			"prison"
+		],
+		[
+			"boyards"
 		]
 	]
 }

@@ -4,11 +4,11 @@
 			"item": "minecraft:dragon_egg"
 		},
 		"title": {
-			"translate": "Objectif : Fort-Boyard"
+			"translate": " Sur l'Île "
 		},
 		"description": {
 			"color": "#aa7e0f",
-			"translate": ""
+			"translate": "Commencement de l'objectif Fort-Boyard !"
 		},
 		"announce_to_chat": true,
 		"frame": "task"

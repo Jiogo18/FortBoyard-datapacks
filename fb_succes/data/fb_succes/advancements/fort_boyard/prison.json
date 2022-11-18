@@ -4,16 +4,16 @@
 			"item": "minecraft:dragon_egg"
 		},
 		"title": {
-			"translate": " Sur le toit "
+			"translate": " En prison "
 		},
 		"description": {
 			"color": "#aa7e0f",
-			"translate": "Une vue plongeante sur la mer !"
+			"translate": "Bienvenue derrière les barreaux !"
 		},
 		"announce_to_chat": true,
 		"frame": "task"
 	},
-	"parent": "fb_succes:fort_boyard/hall",
+	"parent": "fb_succes:fort_boyard/conseil",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
