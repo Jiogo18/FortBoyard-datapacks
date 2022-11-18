@@ -2,17 +2,7 @@
 	"parent": "fb_succes:fort_boyard/boyards",
 	"criteria": {
 		"root": {
-			"trigger": "minecraft:location",
-			"conditions": {
-				"player": {
-					"type_specific": {
-						"type": "player",
-						"advancements": {
-							"fb_succes:fort_boyard/root": true
-						}
-					}
-				}
-			}
+			"trigger": "minecraft:location"
 		}
 	}
 }

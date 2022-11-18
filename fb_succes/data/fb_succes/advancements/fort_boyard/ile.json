@@ -10,10 +10,10 @@
 			"color": "#aa7e0f",
 			"translate": "Commencement de l'objectif Fort-Boyard !"
 		},
+		"background": "minecraft:textures/block/stone_bricks.png",
 		"announce_to_chat": true,
 		"frame": "task"
 	},
-	"parent": "fb_succes:fort_boyard/root",
 	"criteria": {
 		"impossible": {
 			"trigger": "minecraft:impossible"
